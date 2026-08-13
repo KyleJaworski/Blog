@@ -1,0 +1,32 @@
+# --- Hugo Specific ---
+# The default build output directory
+/public/
+
+# Automatically generated assets and image caches
+/resources/_gen/
+
+# Build lock file to prevent write conflicts
+/.hugo_build.lock
+
+# Generated stats file (used for Tailwind CSS / PurgeCSS)
+hugo_stats.json
+
+
+# --- Theme & Package Managers ---
+# Node modules if you use PostCSS, Tailwind, or modern assets
+node_modules/
+
+# Local configuration overrides
+.env
+.env*.local
+
+
+# --- OS & Editor Files ---
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code directory
+.vscode/
